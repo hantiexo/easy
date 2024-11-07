@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>나이 변환기</title>
+    <title>Age Converter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>한국 나이와 만 나이 변환기</h1>
+        <h1>Korean Age & International Age Converter</h1>
         <form id="ageForm">
-            <label for="birthYear">출생년도:</label>
-            <input type="number" id="birthYear" placeholder="예: 1990" required>
+            <label for="birthYear">Year of Birth:</label>
+            <input type="number" id="birthYear" placeholder="e.g., 1990" required>
 
-            <label for="birthMonth">출생 월:</label>
-            <input type="number" id="birthMonth" placeholder="예: 5" required min="1" max="12">
+            <label for="birthMonth">Month of Birth:</label>
+            <input type="number" id="birthMonth" placeholder="e.g., 5" required min="1" max="12">
 
-            <label for="birthDay">출생 일:</label>
-            <input type="number" id="birthDay" placeholder="예: 15" required min="1" max="31">
+            <label for="birthDay">Day of Birth:</label>
+            <input type="number" id="birthDay" placeholder="e.g., 15" required min="1" max="31">
 
-            <button type="button" onclick="calculateAges()">변환하기</button>
+            <button type="button" onclick="calculateAges()">Convert</button>
         </form>
 
         <div id="result">
